@@ -1,7 +1,5 @@
-my_str =input("Enter string:")
-my_str = my_str.casefold()
-rev_str = reversed(my_str)
-if list(my_str) == list(rev_str):
-   print("It is palindrome")
+string=input("Enter string:")
+if(string==string[::-1]):
+      print("The string is a palindrome")
 else:
-   print("It is not palindrome")
+      print("The string isn't a palindrome")
